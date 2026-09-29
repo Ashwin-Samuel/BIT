@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BIT Durg</title>
+
+        <style>
+            a{
+                text-decoration: none;
+                color: white;
+                margin: 20px;
+            }
+
+            header{
+                text-align: center;
+            }
+
+            /* NEW - Latest News */
+            .news{
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 45px;
+}
+
+.ln{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00428c;
+    font-size: 20px;
+    height: 30px;
+    width: 250px;
+    color: white;
+}
+
+.news-box{
+    flex: 1;
+    overflow: hidden;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.news-anim{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    width: max-content;
+    gap: 10px;
+    animation: newsMove 25s linear infinite;
+}
+
+.news-anim p{
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 15px;
+    background-color: rgb(131, 130, 130);
+    height: 25px;
+    width: auto;
+    border-radius: 16px;
+    padding: 3px 10px;
+    margin: 0;
+}
+
+.news-anim:hover{
+    animation-play-state: paused;
+}
+
+@keyframes newsMove{
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+            /* NEW - Vision section */
+            .content{
+                margin: 6px;
+                height: auto;
+                width: 100%;
+                background-color: white;
+            }
+
+            .content img{
+                padding: 30px;
+                width: 100%;
+            }
+
+
+            /* NEW - Zones */
+            .zone-area{
+                margin: 10px;
+                display: flex;
+                justify-content: center;
+                padding: 40px;
+                background-color: white;
+            }
+
+            .z{
+                margin: 10px;
+            }
+
+            .z ul{
+                list-style: none;
+            }
+
+            .z ul li{
+                border: 1px solid rgb(238, 238, 238);
+                height: 45px;
+                width: 343px;
+                background-color: #F7F6F2;
+                margin: 3px;
+            }
+
+            .z ul li a{
+                color: black;
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                font-size: 19px;
+                font-weight: 100;
+                font-family: 'Times New Roman', Times, serif;
+                margin-left: 10px;
+            }
+
+            .z ul li a:hover{
+                background-color: rgb(238, 236, 236);
+            }
+
+
+            .x{
+                display: flex;
+            }
+
+            .facility{
+                background-color: #062242;
+                height: 335px;
+                width: 43px;
+                margin-right: 6px;
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                color: white;
+                font-size: 22px;
+                font-family: 'Times New Roman', Times, serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <p>BIT Durg Website</p>
+        </header>
+
+        <nav style="background-color:brown; padding: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
+            <a href="">Research</a>
+            <a href="">Conference</a>
+            <a href="">Central Library</a>
+            <a href="">Syllabus</a>
+            <a href="">Moodle(LMS)</a>
+            <a href="">IIC</a>
+        </nav>
+
+        <img src="bit77.png" style="width: 100%;" alt="BIT Durg">
+
+        <nav style="background-color: rgb(69, 69, 152); padding: 15px; text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
+            
+            <a href="Task 5-3.html">About</a>
+            <a href="Task5-1.html">Academics</a>
+            <a href="">Admission</a>
+            <a href="Task 5-2.html">Departments</a>
+            <a href="Task 5-4.html">Placement</a>
+            <a href="">Campus Life</a>
+            <a href="">Connect</a>
+            <a href="">Blogs</a>
+        </nav>
+        <!-- NEW: Latest News -->
+        <div class="news">
+            <div class="ln">
+                <p>Latest News</p>
+            </div>
+
+
+            <div class="news-box">
+                <div class="news-anim">
+                    <p>Notice: Fee Submission for UG Courses</p>
+                    <p>Extension of Post Matric Scholarship (SC/ST/OBC Category) 2025-26</p>
+                    <p>Notice: Fee Submission for UG and PG Courses Jan-June'2025</p>
+                    <p>Notice: Fee Submission for PG Courses</p>
+                    <p>Notice: Fee Submission for UG Courses</p>
+                </div>
+            </div>
+        </div>
+        <img src="trust_final10.png" alt="BIT Durg" style="width: 100%; height: 400px;">
+
+
+        <!-- NEW: Zones -->
+        <div class="zone-area">
+
+            <div class="zone-1 z">
+                <ul>
+                    <li><a href="#"> Parent Zone</a></li>
+                    <li><a href="#">Students Corner</a></li>
+                    <li><a href="#"> Faculty Corner</a></li>
+                    <li><a href="#"> 1st Year Students Information</a></li>
+                    <li><a href="#"> Anti Ragging Cell</a></li>
+                    <li><a href="#"> Women Security Cell</a></li>
+                    <li><a href="#">Grievance Redressal</a></li>
+                </ul>
+            </div>
+
+
+            <!-- NEW: YouTube video -->
+            <div class="zone-2 z">
+                <iframe
+                    width="390"
+                    height="332"
+                    src="https://www.youtube.com/embed/f_Z6KqKux0c?si=rr6UQ3mU03XvGvsS"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+
+            <!-- NEW: Facilities -->
+            <div class="zone-3 z x">
+
+                <div class="facility">
+                    <p>Facilities</p>
+                </div>
+
+                <ul>
+                    <li><a href="#">Hostel </a></li>
+                    <li><a href="#">Library </a></li>
+                    <li><a href="#">Medical Facility </a></li>
+                    <li><a href="#">Gymnasium </a></li>
+                    <li><a href="#">Sports </a></li>
+                    <li><a href="#">Shoping Complex </a></li>
+                    <li><a href="#">Bank </a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <footer style="background-color: rgb(0, 0, 0); color: white; text-align:left; padding: 15px; min-height: 20px; font-family: Arial, Helvetica, sans-serif;">
+
+        
+            <section>
+
+                <article>
+                    <h2 style="color: #99cc33;">ADDRESS</h2>
+                    <hr>
+                    <p>Institute Code: 01,<br>
+                    Established in 1986</p>
+
+                    <p>Bhilai House, Durg,<br>
+                    Chhattisgarh-491001</p>
+
+                    <p><a href="bit@bitdurg.ac.in">bit@bitdurg.ac.in</a></p>
+
+                    <p>0788-2359297</p>
+                    <p>+91 0788 -2359263</p>
+                </article>
+
+
+                <article>
+                    <h2 style="color: #848407;">QUICK LINKS</h2>
+                    <hr>
+
+                    <p><a href="">Sports</a></p>
+                    <p><a href="">OJAS</a></p>
+                    <p><a href="">NSS</a></p>
+                    <p><a href="">Facilities</a></p>
+                    <p><a href="">Clubs</a></p>
+                    <p><a href="">Contact us</a></p>
+                    <p><a href="">Online Fee Payment</a></p>
+                </article>
+
+
+                <article>
+                    <h2 style="color: #66ccff;">DOWNLOADS</h2>
+                    <hr>
+                    <p><a href="">Backlog Exam Form</a></p>
+                    <p><a href="">Transfer & Provisional Cerfiticate Form</a></p>
+                    <p><a href="">Magazine</a></p>
+                </article>
+            </section>
+            <p>Copyright © BIT DURG || Website Design & Maintain by Ayodhya Webosoft</p>
+
+            <nav> 
+                <a href="">Privacy Policy</a>
+                <a href="">Disclaimer</a>
+                <a href="">Term and Conditions</a>
+                <a href="">Hyperlink policy</a>
+                <a href="">Previous Website</a>
+            </nav>
+
+
+        </footer>
+
+    </body>
+</html>
